@@ -1,0 +1,6 @@
+#if else statement
+number=int(input("enter the number:"))
+time=int(input("enter the time:"))
+salary=float(input("enter the salary:"))
+if (time>10): bonus=0.1*salary
+print("bonus:",bonus)
