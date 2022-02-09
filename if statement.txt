@@ -1,0 +1,9 @@
+#if statement
+number=(input(int("enter the number:"))
+a=int(input("enter a:")) 
+b=int(input("enter b:")) 
+c=int(input("enter c:")) 
+if a>b and b>c:
+  print("The largest number is",b)
+  if c>b and c>a:
+    print("c is the largest")
