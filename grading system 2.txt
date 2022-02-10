@@ -1,0 +1,13 @@
+#grading system
+math=int(input("enter math:"))
+eng=int(input("enter eng:"))
+kisw=int(input("enter kisw:"))
+chem=int(input("enter chem:"))
+bio=int(input("enter bio:"))
+average=(math+eng+kisw+chem+bio)/5
+print(average)
+if (70<=average<=100):print("A")
+elif (60<=average<=69):print("B")
+if (50<=average<=59):print("C")
+elif(40<=average<=49): print("D")
+elif (0<=average<=39):print("fail")
