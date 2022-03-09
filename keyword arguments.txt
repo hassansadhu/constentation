@@ -1,0 +1,7 @@
+# Python program to demomnstrate keyword arguments
+def student(firstname, lastname):
+    print(firstname, lastname)
+    
+#key arguments
+student(firstname='Geeks',lastname='practise')
+student(firstname='practise',lastname='Geeks')
