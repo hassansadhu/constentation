@@ -1,0 +1,8 @@
+# Here x is a new reference to same list first
+def myFun(x):
+ x[0]=20
+# Driver code(note that first is modified 
+# After function call
+first=[10,11,12,13,14,15]
+myFun(first);
+print(first)
